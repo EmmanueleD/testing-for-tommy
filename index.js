@@ -6,9 +6,11 @@ const routes = require("./routes/useRoutes");
 app.get("/", (req, res) => {
   res.send("Este es el backend");
 });
-
 app.use(cors());
 app.use(express.json());
 app.use("/api", routes);
 
-module.exports = app; // Export your app instead of listening to a port
+const port = process.env.PORT || 3001;
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
