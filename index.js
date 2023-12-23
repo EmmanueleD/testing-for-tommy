@@ -6,11 +6,11 @@ const routes = require("./routes/useRoutes");
 app.get("/", (req, res) => {
   res.send("Este es el backend");
 });
-
 app.use(cors());
 app.use(express.json());
-app.use("/", routes);
+app.use("/api", routes);
 
-const serverlessHandler = app;
-
-module.exports = serverlessHandler;
+const port = process.env.PORT || 3001;
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
