@@ -1,7 +1,7 @@
 {
   "name": "c",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000s\u0000e\u0000r\u0000v\u0000e\u0000r\u0000g\u0000u\u0000a\u0000p\u0000p\u0000\r\u0000 \u0000",
+  "description": "DESCRIPTION",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
