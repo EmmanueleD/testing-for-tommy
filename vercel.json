@@ -1,44 +1,44 @@
 {
   "routes": [
     {
-      "src": "/api/create",
-      "dest": "/api/create"
+      "src": "/create",
+      "dest": "/create"
     },
     {
-      "src": "/api/empleados",
-      "dest": "/api/empleados"
+      "src": "/empleados",
+      "dest": "/empleados"
     },
     {
-      "src": "/api/update",
-      "dest": "/api/update"
+      "src": "/update",
+      "dest": "/update"
     },
     {
-      "src": "/api/delete/:id",
-      "dest": "/api/delete/:id"
+      "src": "/delete/:id",
+      "dest": "/delete/:id"
     },
     {
-      "src": "/api/login",
-      "dest": "/api/login"
+      "src": "/login",
+      "dest": "/login"
     },
     {
-      "src": "/api/register",
-      "dest": "/api/register"
+      "src": "/register",
+      "dest": "/register"
     },
     {
-      "src": "/api/createText",
-      "dest": "/api/createText"
+      "src": "/createText",
+      "dest": "/createText"
     },
     {
-      "src": "/api/info",
-      "dest": "/api/info"
+      "src": "/info",
+      "dest": "/info"
     },
     {
-      "src": "/api/deleteinfo/:id",
-      "dest": "/api/deleteinfo/:id"
+      "src": "/deleteinfo/:id",
+      "dest": "/deleteinfo/:id"
     },
     {
-      "src": "/api/updateinfo",
-      "dest": "/api/updateinfo"
+      "src": "/updateinfo",
+      "dest": "/updateinfo"
     },
     {
       "src": "/",
