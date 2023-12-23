@@ -2,43 +2,43 @@
   "routes": [
     {
       "src": "/api/create",
-      "dest": "/routes/useRoutes.js"
+      "dest": "/api/create"
     },
     {
       "src": "/api/empleados",
-      "dest": "/routes/useRoutes.js"
+      "dest": "/api/empleados"
     },
     {
       "src": "/api/update",
-      "dest": "/routes/useRoutes.js"
+      "dest": "/api/update"
     },
     {
       "src": "/api/delete/:id",
-      "dest": "/routes/useRoutes.js"
+      "dest": "/api/delete/:id"
     },
     {
       "src": "/api/login",
-      "dest": "/routes/useRoutes.js"
+      "dest": "/api/login"
     },
     {
       "src": "/api/register",
-      "dest": "/routes/useRoutes.js"
+      "dest": "/api/register"
     },
     {
       "src": "/api/createText",
-      "dest": "/routes/useRoutes.js"
+      "dest": "/api/createText"
     },
     {
       "src": "/api/info",
-      "dest": "/routes/useRoutes.js"
+      "dest": "/api/info"
     },
     {
       "src": "/api/deleteinfo/:id",
-      "dest": "/routes/useRoutes.js"
+      "dest": "/api/deleteinfo/:id"
     },
     {
       "src": "/api/updateinfo",
-      "dest": "/routes/useRoutes.js"
+      "dest": "/api/updateinfo"
     },
     {
       "src": "/",
